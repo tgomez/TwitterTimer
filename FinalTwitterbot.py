@@ -26,7 +26,7 @@ happy_quotes = [
 
 
 def tweetout(tweet_number):
-    happy_quote = random.choice(xhappy_quotes)
+    happy_quote = random.choice(happy_quotes)
     api.update_status(happy_quote)
     
 counter=0
