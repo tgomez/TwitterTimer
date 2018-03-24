@@ -1,1 +1,1 @@
-worker: python SATTWEET.py
+worker: python FinalTwitterbot.py
